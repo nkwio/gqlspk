@@ -33,6 +33,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
   gem 'pg'
+  gem 'faker'
 end
 
 group :development do
@@ -54,3 +55,4 @@ end
 
 # Mounted Engines
 gem 'gqlngn', path: './apps/gqlngn'
+gem 'graphiql-rails', group: :development
